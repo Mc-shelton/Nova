@@ -61,13 +61,15 @@ h6 {
 --------------------------------------------------------------*/
 
 #rumalogo{
-background: red;  
-height: 80px;
-width: 80px;
+/* background: red;   */
+height: 150px;
+width: 150px;
 position: absolute;
 right: 5%;
 top: 100px;
-border-radius: 100%;
+border-radius: 100% ;
+background: url("./../img/rumalogo.png");
+background-size: cover;
 }
 section {
   overflow: hidden;
@@ -515,7 +517,7 @@ section {
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/pexels-pixabay-40751.jpg") 0px -60px;
   background-size: cover;
   position: relative;
   padding: 120px 0;
@@ -781,7 +783,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("./../img/clickbg.jpeg") center center;
   background-size: cover;
   padding: 100px 0;
 }
