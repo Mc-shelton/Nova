@@ -640,7 +640,11 @@ section {
   min-height: 500px;
   background-size: cover;
 }
+.img-fluid{
+  width: 100%;
+  /* height: 400px; */
 
+}
 .why-us .slides {
   background-color: #f7f9fc;
 }
